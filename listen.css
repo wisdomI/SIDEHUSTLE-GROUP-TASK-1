@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 98%);
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.music-card{
+    width: 28.1rem;
+    height: 37rem;
+    background-color: white;
+    margin: 4rem 33rem 3rem 33rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(95, 89, 89);
+
+}
+
+.music-card-box img{
+    border-radius: 20px 20px 0 0;
+}
+
+.text-section{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+}
+
+.text2-section{
+    display: flex;
+    justify-content: center;
+    line-height: 1.4rem;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+
+.text3-section{
+    height: 5rem;
+    width: 25rem;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    margin: 15px 22px;
+    border-radius: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.text3-section img{
+    margin: 15px;
+}
+
+.text3-section .inner-text{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    font-size: smaller;
+}
+
+.text3-section .inner-text h5{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: medium;
+}
+
+.text3-section div{
+    margin: 15px 150px 15px 15px;
+}
+
+.text3-section a{
+    margin: 25px 10px 25px 0;
+}
+
+.text3-section a:hover{
+    color: rgb(88, 88, 238);
+    text-decoration: none;
+}
+
+.inner-text h5{
+    margin: 6px 0;
+}
+
+.button-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-section .button1{
+    width: 25rem;
+    height: 45px;
+    margin-bottom: 5px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+}
+
+.button-section .button2{
+    width: 25rem;
+    height: 45px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+
+}
+
+.button1:hover {
+    background-color: rgb(106, 106, 240);
+}
+
+.button2:hover {
+    color: rgb(189, 184, 184);
+}
